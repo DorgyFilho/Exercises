@@ -2,4 +2,4 @@
 
 nome = input('Seu nome: ')
 matricula = input('Sua Matrícula: ')
-print(f'Nome: {nome}\nMatrícula: {matricula}')
+print(f'Nome: "{nome}"\nMatrícula: "{matricula}"')

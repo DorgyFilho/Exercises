@@ -7,6 +7,7 @@ precoLata = 80
 capLata = 18
 
 qtdLata = lts/capLata
+qtdLata = round(qtdLata)
 totalCompra = qtdLata*precoLata
 
-print(f'Quantidade de latas adquiridas: {round(qtdLata)}\nValor total da compra: R${totalCompra:.2f}')
+print(f'Quantidade de latas adquiridas: {qtdLata}\nValor total da compra: R${totalCompra:.2f}')

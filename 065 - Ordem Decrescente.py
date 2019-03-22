@@ -8,7 +8,7 @@ if (x > y and x > z):
     if y > z:
         print(x, y, z)
     else:
-        print(x, y, z)
+        print(x, z, y)
 elif (y > x and y > z):
     if x > z:
         print(y, x, z)

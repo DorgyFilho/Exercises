@@ -1,4 +1,4 @@
-#063 - Velocidade inferior ou superior à 110 Km/h
+#063 - Velocidade inferior ou superior à 110 Km/h?
 
 dist = int(input('Distância: '))
 duraViagem = float(input('Tempo em horas: '))

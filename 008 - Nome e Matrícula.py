@@ -1,5 +1,5 @@
 #008 - Nome e Matrícula
 
-nome = input('Seu nome: ')
+nome = input('Seu Nome: ')
 matricula = input('Sua Matrícula: ')
 print(f'Nome: "{nome}"\nMatrícula: "{matricula}"')

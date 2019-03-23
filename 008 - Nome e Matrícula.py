@@ -1,4 +1,4 @@
-#008 - Nome e Matrícula
+#008-Nome e Matrícula
 
 nome = input('Seu Nome: ')
 matricula = input('Sua Matrícula: ')

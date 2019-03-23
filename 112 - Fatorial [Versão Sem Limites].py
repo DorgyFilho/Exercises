@@ -1,13 +1,10 @@
-#071 - Fatorial de um número
+#112 - Fatorial [Versão Sem Limites]
 
+num = int(input('Digite o valor a ser calculado: '))
 fat = 1
-num = ''
-num = int(input('Digite um número: '))
-if num == 20:
-    print('Entrada inválida!')
 valor = num
 
-print(f'{valor}! = ', end=' ')
+print(f'Fatorial de {num}! = ', end=' ')
 while valor > 0:
     print(f'{valor}', end=' ')
     print('.' if valor > 1 else '=', end=' ')

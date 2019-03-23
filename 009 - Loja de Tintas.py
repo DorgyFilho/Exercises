@@ -1,6 +1,6 @@
 #009 - Loja de Tintas
 
-metros = int(input('Metros a serem pintados: '))
+metros = int(input('Digite os metros a serem pintados: '))
 lts = metros//3
 
 precoLata = 80

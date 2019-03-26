@@ -46,3 +46,69 @@ while tentativas > 0:
         print('Ambos lavarão a louça')
         break
     
+#MODO 2
+
+##j1 = input('Jogada 1 do jogador 1: ')
+##j2 = input('Jogada 1 do jogador 2: ')
+##pj1 = 0
+##pj2 = 0
+##if j1 == 'papel' and j2 == 'pedra':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'tesoura':
+##    pj1 += 1
+##elif j1 == 'tesoura' and j2 == 'papel':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'papel':
+##    pj2 += 1
+##elif j1 == 'tesoura' and j2 == 'pedra':
+##    pj2 += 1
+##elif j1 == 'papel' and j2 == 'tesoura':
+##    pj2 += 1
+##else:
+##    print('Empate!')
+##
+##j1 = input('Jogada 1 do jogador 1: ')
+##j2 = input('Jogada 1 do jogador 2: ')
+##pj1 = 0
+##pj2 = 0
+##if j1 == 'papel' and j2 == 'pedra':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'tesoura':
+##    pj1 += 1
+##elif j1 == 'tesoura' and j2 == 'papel':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'papel':
+##    pj2 += 1
+##elif j1 == 'tesoura' and j2 == 'pedra':
+##    pj2 += 1
+##elif j1 == 'papel' and j2 == 'tesoura':
+##    pj2 += 1
+##
+##j1 = input('Jogada 1 do jogador 1: ')
+##j2 = input('Jogada 1 do jogador 2: ')
+##pj1 = 0
+##pj2 = 0
+##if j1 == 'papel' and j2 == 'pedra':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'tesoura':
+##    pj1 += 1
+##elif j1 == 'tesoura' and j2 == 'papel':
+##    pj1 += 1
+##elif j1 == 'pedra' and j2 == 'papel':
+##    pj2 += 1
+##elif j1 == 'tesoura' and j2 == 'pedra':
+##    pj2 += 1
+##elif j1 == 'papel' and j2 == 'tesoura':
+##    pj2 += 1
+##
+##
+##if pj1 > pj2:
+##    print('Jogador 2 lava a louça')
+##elif pj2 > pj1:
+##    print('Jogador 1 lava a louça')
+##elif pj1 == 3 and pj2 == 0:
+##    print('Jogador 2 lava os pratos do jantar')
+##elif pj1 == 0 and pj2 == 3:
+##    print('Jogador 1 lava os pratos do jantar') 
+##else:
+##    print('Ambos lavam a louça')

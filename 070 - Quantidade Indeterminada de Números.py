@@ -13,4 +13,6 @@ while num != 99:
         print(numImpar)
         print()
         continue
+    elif num % 2 == 0 or num < 0:
+        continue
     

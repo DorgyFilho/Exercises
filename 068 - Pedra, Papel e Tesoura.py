@@ -1,7 +1,5 @@
 #068 - Pedra, Papel e Tesoura
 
-opcao = ['PEDRA', 'PAPEL', 'TESOURA']
-
 scrJ1 = 0
 scrJ2 = 0
 tentativas = 4

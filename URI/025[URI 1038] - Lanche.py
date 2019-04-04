@@ -14,6 +14,6 @@ elif cod == 3:
 elif cod == 4:
     valor = qtd*2
 elif cod == 5:
-    valor = qtd*1
+    valor = qtd*1.50
 
 print('Total: R$ %.2f' %valor)

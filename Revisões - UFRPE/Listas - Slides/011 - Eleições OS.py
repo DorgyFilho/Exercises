@@ -13,6 +13,7 @@ while voto != 0:
         continue
     if voto == 0:
         print('Eleição Encerrada!')
+        break
     votos[voto-1] += 1
     total += 1
 

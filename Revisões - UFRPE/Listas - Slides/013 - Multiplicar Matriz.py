@@ -11,7 +11,7 @@ for i in range(1, L+1):
 
 for a in M:
   for b in a:
-    novaMatriz = 2*int(b)
+    novaMatriz = 2*b
     print(novaMatriz, end=' ')
   print()
   

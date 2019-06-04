@@ -2,18 +2,20 @@
 
 class Aluno():
 
-    def __init__(self, nome, curso, TSD):
+    def __init__(self, nome, curso):
         self.nome = nome
         self.curso = curso
-        self.TSD = TSD
+        self.TSD = 0
 
-    def Estudar(self, qtdeHSD):
-        self.TSD += qtdeHSD
-        return self.TSD
+    def Estudar(self, H):
+        self.TSD += H
     
-    def Dormir(self, qtdeHSono):
-        self.TSD -= qtdeHSono
-        return self.TSD
+    def Dormir(self, H):
+        self.TSD -= H
+    
+    def SemDormir(self):
+        print('Tempo sem dormir: %d horas' %(self.TSD))
+
 
 # nome = input('Nome: ')
 # curso = input('Curso: ')

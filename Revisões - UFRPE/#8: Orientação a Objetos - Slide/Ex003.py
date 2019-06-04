@@ -14,9 +14,12 @@ class Livro():
     def getPreco(self):
         return self.preco
     
-    def armazenar(self):
-        self.Data = {'Título': self.titulo, 'Autor': self.autor, 'Qtde Pág': self.pag, 'Preço': self.preco}
-        return self.Data
+    def imprimirInfo(self):
+        print('Título: %s\nPreço: R$%.2f' %(self.titulo, self.preco))
+    
+    # def armazenar(self):
+    #     self.Data = {'Título': self.titulo, 'Autor': self.autor, 'Qtde Pág': self.pag, 'Preço': self.preco}
+    #     return self.Data
         
 # titulo = input('Titulo do Livro: ')
 # autor = input('Autor do Livro: ')

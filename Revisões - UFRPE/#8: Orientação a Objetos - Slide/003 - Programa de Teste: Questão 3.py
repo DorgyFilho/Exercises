@@ -7,9 +7,14 @@ autor = input('Autor do Livro: ')
 pag = input('Quantidade de Páginas: ')
 preco = float(input('Preço: '))
 Book = Livro(titulo, autor, pag, preco)
-print(Book.armazenar())
-print(Book.setPreco(50))
-print()
-print(Book.armazenar())
+biblioteca = []
+biblioteca.append(Book)
+
+for l in biblioteca:
+    l.imprimirInfo()
+# print(Book.armazenar())
+# Book.setPreco(50)
+# print()
+# print(Book.armazenar())
 
 

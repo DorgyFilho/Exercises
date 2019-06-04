@@ -1,43 +1,5 @@
 #003 - Bomba de Combustível
 
-# class Bomba():
-
-#     def __init__(self, tipo, valor, qtd):
-#         self.tipo = tipo
-#         self.valorLts = valor
-#         self.qtdeComb = qtd
-    
-#     def addPorValor(self, valorReais):
-#         litros = valorReais/self.valorLts
-#         if litros > 0:
-#             self.qtdeComb -= litros
-#             return litros
-#         else:
-#             return 0
-
-#     def addPorLitro(self, litros):
-#         if litros > 0:
-#             valor = litros*self.valorLts
-#             self.qtdeComb -= litros
-#             return valor
-#         else:
-#             return 0
-
-#     def alteraPreco(self, novo):
-#         if novo > 0:
-#             self.valorLts = novo
-#             return True
-#         else:
-#             return False
-    
-#     def alteraComb(self, Comb):
-#         self.tipo = Comb
-#         return True
-    
-#     def recarregar(self, Qtd):
-#         self.qtdeComb += Qtd
-#         return self.qtdeComb
-
 class Bomba():
 
     tipoComb = None

@@ -7,5 +7,6 @@ while Cases > 0:
         Result = '%02d:%02d' %(H,M)
         print(Result + ' - A porta abriu!')
     elif O == 0:
-        print('%02d:%02d', " - A porta fechou!" %H, M)
+        Result = '%02d:%02d' %(H,M)
+        print(Result + ' - A porta fechou!')
     Cases -= 1
